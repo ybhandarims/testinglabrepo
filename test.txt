@@ -4,3 +4,21 @@ Hi this is my first test file git console.
 
 
 
+5️⃣ If you want Git Bash inside VS Code (Best Setup)
+You can avoid this confusion entirely.
+Set Git Bash as default terminal:
+	1. VS Code → Ctrl + Shift + P
+	2. Search: Terminal: Select Default Profile
+	3. Choose Git Bash
+	4. Restart terminal
+Now:
+ls -la
+✔ Works inside VS Code
+
+🧠 Interview-Ready Explanation
+	Git Bash uses Linux-style commands like ls -la, while PowerShell uses Windows commands where hidden files are shown using -Force. VS Code hides the .git folder by default to protect repository metadata.
+	
+🔑 Final Summary
+✔ ls -la works in Git Bash, not PowerShell
+✔ PowerShell equivalent = ls -Force
+✔ VS Code hides .git intentionally
